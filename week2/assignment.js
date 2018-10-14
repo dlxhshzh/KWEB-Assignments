@@ -17,6 +17,7 @@ const execution = async () =>
         await fs_writeFile('./3.txt', data2 + '33333');
         console.log("3.txt just created");
         const   data3 = await fs_readFile('./3.txt', "UTF-8");
+        console.log(data3);
     }
     catch(err)
     {
