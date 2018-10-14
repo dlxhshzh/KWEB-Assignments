@@ -1,0 +1,15 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "KWEB 준스 1주차 실습",
+  "main": "index.js",
+  "author": "김민수",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start" : "node calc.js",
+    "start:dev": "nodemon calc.js"
+  }
+}
